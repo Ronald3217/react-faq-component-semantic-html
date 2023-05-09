@@ -1,0 +1,54 @@
+{
+  "name": "react-faq-component-semantic-html",
+  "version": "1.0.0",
+  "description": "React FAQ Component with Semantic HTML, Include FAQ schema.org | google rich snippet optimization",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Ronald Villagrán",
+    "email": "ronald3217@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ronald3217/react-faq-component-semantic-html.git"
+  },
+  "keywords": [
+    "react",
+    "React FAQ Component",
+    "react faq component",
+    "react FAQ Component SEO friendly"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:babel": "babel src/lib --out-dir dist --copy-files",
+    "build:swc": "swc ./src/lib -d dist --copy-files"
+  },
+  "peerDependencies": {
+    "@emotion/react": "11.4.0",
+    "@emotion/styled": "11.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.21.5",
+    "@babel/core": "7.21.8",
+    "@babel/preset-env": "7.21.5",
+    "@babel/preset-react": "7.18.6",
+    "@swc/cli": "0.1.62",
+    "@swc/core": "1.3.56"
+  },
+  "dependencies": {
+    "@babel/polyfill": "7.12.1",
+    "@babel/runtime": "7.21.5",
+    "@emotion/react": "11.4.0",
+    "@emotion/styled": "11.3.0",
+    "core-js": "3.30.1",
+    "prop-types": "15.8.1",
+    "react": "18.2.0"
+  }
+}
