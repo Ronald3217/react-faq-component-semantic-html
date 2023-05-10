@@ -6,7 +6,7 @@ if you are using vite.js with esbuild and Babel add the following line of code i
 `window.React  =  React`
 if you are using vite.js with swc this step is not necessary.
 
-The component is made with semantic HTML, using the `<dialog></dialog>` and `<details></details>` tags.
+The component is made with semantic HTML, using the `<details></details>` and `<summary></summary>` tags.
 
 The component receives the props:
 |prop|type|isRequired|Options|Comments

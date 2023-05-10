@@ -1,9 +1,9 @@
 {
   "name": "react-faq-component-semantic-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React FAQ Component with Semantic HTML, Include FAQ schema.org | google rich snippet optimization",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "dist/lib/index.js",
+  "module": "dist/lib/index.js",
   "license": "MIT",
   "author": {
     "name": "Ronald Villagrán",
