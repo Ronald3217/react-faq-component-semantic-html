@@ -1,10 +1,8 @@
 # React FAQ Component with Semantic HTML
 ## Include FAQ [schema.org](https://developers.google.com/search/docs/appearance/structured-data/faqpage?hl=en) | [google rich snippet](https://developers.google.com/search/docs/appearance/structured-data/faqpage?hl=en) optimization
 **DEMO: https://react-faq-component-semantic-html-demo.vercel.app/**
- ***important message:***
-if you are using vite.js with esbuild and Babel add the following line of code in `main.jsx`:
-`window.React  =  React`
-if you are using vite.js with swc this step is not necessary.
+
+-  **You must install the peerDependencies for the component to work (ignore if you already have them added to your project).  Read CHAGELOG.md**
 
 The component is made with semantic HTML, using the `<details></details>` and `<summary></summary>` tags.
 
