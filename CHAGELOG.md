@@ -17,20 +17,20 @@ Small changes were made: Babel is changed in favor of SWC, unused dependencies a
  
 ### Changed
 - Removed unused dependencies:
--- @babel/polyfill
--- @babel/runtime
--- core-js
+    - @babel/polyfill
+    - @babel/runtime
+    - core-js
 - Moved to peerDependencies:
--- "@emotion/react": "11.4.0"
--- "@emotion/styled": "11.3.0"
+    - "@emotion/react": "11.4.0"
+    - "@emotion/styled": "11.3.0"
 - **You must install the above peerDependencies for the component to work (ignore if you already have them added to your project).**
 
 ### Removed
 - Removed devDependencies:
--- @babel/cli
--- @babel/core
--- @babel/preset-env
--- @babel/preset-react
+    - @babel/cli
+    - @babel/core
+    - @babel/preset-env
+    - @babel/preset-react
  
 ## [1.0.1] - 2023-05-09
  
